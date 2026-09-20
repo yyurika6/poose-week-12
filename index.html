@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオサイト</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+<header class="bg-blue-800 text-white border-b px-6 py-4 text-center">
+<a class="text-2xl font-bold">ゆっちゃん</a>
+</header>
+
+<main>
+<section>
+    <h1 class="text-2xl font-bold mb-4">自己紹介</h1>
+    <p class="text-gray-600 leading-relaxed">
+        こんにちは!青山学院大学の経済学部でpooseでプログラミングを学んでいるゆりかです。</p>
+    </section>
+
+<section>
+<h1 class="text-2xl font-bold mb-4">スキル</h1>
+<ul class="flex flex-wrap gap-2">
+        <li class="transition-all duration-300 hover:scale-105 bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">HTML
+        </li>
+        <li class="transition-all duration-300 hover:scale-105 bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">Tailwind CSS
+        </li>
+        <li class="transition-all duration-300 hover:scale-105 bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">JavaScript
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h1 class="text-2xl font-bold mb-4">作品</h1>
+      <section class="splide" aria-label="作品スライダー">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="./works/work1.jpg" alt="作品1"
+                   class="w-full rounded-lg object-cover">
+            </li>
+            <li class="splide__slide">
+              <img src="./works/work2.jpg" alt="作品2"
+                   class="w-full rounded-lg object-cover">
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+</main>
+ <footer class="bg-blue-800 text-white text-center py-6 mt-16">
+    <p>2026 ゆっちゃん</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="./js/main.js"></script>
+  </body>
+</html>
